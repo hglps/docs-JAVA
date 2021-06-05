@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="720.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="msgjavafx.FXMLDocumentController">
+   <children>
+      <Button fx:id="pressMe" layoutX="242.0" layoutY="509.0" mnemonicParsing="false" onAction="#clicouBotao" prefHeight="69.0" prefWidth="236.0" text="pressMe" textFill="#81d096">
+         <font>
+            <Font name="Comic Sans MS" size="36.0" />
+         </font>
+      </Button>
+      <Label fx:id="textMain" layoutX="63.0" layoutY="310.0" text="Aperte para uma surpresa" textFill="#62a2d0">
+         <font>
+            <Font name="Comic Sans MS" size="49.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
